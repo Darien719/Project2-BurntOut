@@ -14,6 +14,7 @@ BurntOut is an application used by companies to post job openings and candidates
 - JUnit 4
 - Spring Test
 - Selenium
+- Cucumber and Gherkin
 - Karma
 - Jasmine
 - Log4J
