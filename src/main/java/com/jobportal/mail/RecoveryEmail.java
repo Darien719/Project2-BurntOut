@@ -80,7 +80,7 @@ public class RecoveryEmail {
 			message.setFrom(new InternetAddress(myEmailAccount));
 			message.setRecipient(Message.RecipientType.TO, new InternetAddress(recipient));
 			message.setSubject("Recover Your BurntOut Account");
-			String htmlContent = "<h1>Use the provided security code to reset your password</h1><br/><h3>"+securityCode+"</h3><br/><a href='http://localhost:4200/passwordreset'>Password Reset</a>";
+			String htmlContent = "<h1>Use the provided security code to reset your password</h1><br/><h3>"+securityCode+"</h3><br/><a href='http://burntoutbucket.s3-website-us-east-1.amazonaws.com/passwordreset'>Password Reset</a>";
 			message.setContent(htmlContent, "text/html");
 			return message;
 		} catch(Exception e) {
