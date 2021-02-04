@@ -1,4 +1,5 @@
 # BurntOut
+Frontend Component: https://github.com/Darien719/Project2-BurntOut-Angular
 
 ## Project Overview
 BurntOut is an application used by companies to post job openings and candidates to apply to them. Candidates can view job openings and search them by location, industry, company or job title. They can also apply for jobs, and view their applications. Company representatives can log in and post job openings, view a list of their applicants' information, such as resumes and applicants' profiles, and approve or deny applications. Also, users can create blog posts and see other users' posts in their feed.
